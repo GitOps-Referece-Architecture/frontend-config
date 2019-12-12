@@ -1,0 +1,1 @@
+Service {{ include "frontend.name" . }} has been deployed successfully!
