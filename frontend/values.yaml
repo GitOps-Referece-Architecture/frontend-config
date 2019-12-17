@@ -1,18 +1,14 @@
 replicaCount: 1
-
 image:
   repository: peishu/frontend
-  tag: v0.1.1
+  tag: 294b4e43144f7c54a6b1be6b9cd11433a04af81c
   pullPolicy: IfNotPresent
-
 nameOverride: ""
 fullnameOverride: ""
-
 service:
-  type: LoadBalancer #ClusterIP
+  type: LoadBalancer
   port: 8080
-
-resources: 
+resources:
   requests:
     cpu: 100m
     memory: 64Mi
